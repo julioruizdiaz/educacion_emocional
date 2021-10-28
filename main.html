@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>     <!----- definición de html 5 -->          
+<html lang="es"> 	<!----- definición del lenguaje -->  
+					<!------Inicio del  HEAD -->
+<head>
+  <title>Educación Emocional y Atención Plena</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+	<!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom --> 
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+	<!----- icono para apple y safari --> 
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	    <!-- iconos  -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+	    <!-- tipo de letra -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+		<!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+    
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<!-----
+.text-primary  		azul
+.text-secondary		gris
+.text-success		verde
+.text-danger		rojo
+.text-warning		amarillo
+.text-info			celeste
+.text-light			blanco
+.text-dark			negro
+.text-muted			gris oscuro
+.text-white			gris claro
+-->
+<!------------------------------------------------------------------ Fin del  HEAD -->
+<body> 
+     <div class="wrapper">
+         <div class="headline">
+            <h4 class="semi-bold-600" style="text-shadow: 0px 2.5px 2px rgb(125, 211, 238)">
+             <strong>Bienvenidos a Educación Emocional y Atención Plena</strong></h4>
+             <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Volver a Inicio</a>
+         </div>
+         <form class="form" method="post" action="#">
+            <div class="signup">
+                <div class="form-group">
+                    <input type="text" placeholder="Apellido y nombres" required="">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" required="">
+                </div>
+                <button type="submit" class="btn">REGISTRARSE</button>
+                <div class="account-exist">
+                    ¿Ya tiene una cuenta? <a href="#" id="login">Ingresar</a>
+                 </div>
+            </div>
+            <div class="signin"> 
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" required="">
+                </div>
+                <div class="forget-password">
+                    <div class="check-box">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Recordar</label>
+                    </div>
+                    <a href="#">¿Olvidó su contraseña?</a>
+                </div>
+                <button type="submit" class="btn">INGRESAR</button>
+                <div class="account-exist">
+                    ¿Desea crear una nueva cuenta? <a href="#" id="signup">Registrarse</a>
+                </div>
+            </div>
+         </form>
+     </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
